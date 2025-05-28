@@ -1,0 +1,731 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Public+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#101323] dark group/design-root overflow-x-hidden" style='font-family: "Public Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#21284a] px-10 py-3">
+          <div class="flex items-center gap-4 text-white">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Classic Rides</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-white text-sm font-medium leading-normal" href="#">Our Cars</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Destinations</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">About Us</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Contact</a>
+            </div>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#607afb] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Book Now</span>
+            </button>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:p-4">
+                <div
+                  class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4"
+                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDR0L2Wm1E5ddFhAgntIlYA1zDfKQxSBMEunba7q6FS_qHCj8YBJbvts5yQ1yhtkEc7DCx2tDou7ChltjsznWsU-d6yN4i5lkJrYqB5qZyPBWzqzp00WcNcX1TL5JG8hHtuXIET40qrPBOuSuJ8ZUsx0OuENKlcwsS95HzKyAuf3iVVbvhA0IU52xyT-5N3NfbLto0NQEsJeN2QyQF140vGGIsddUelvG9-iUaKyysUnXBGr6LdjNpiTy3lVFt11h3w4iISFBANqQxN");'
+                >
+                  <div class="flex flex-col gap-2 text-center">
+                    <h1
+                      class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+                    >
+                      Experience the Golden Age of Motoring
+                    </h1>
+                    <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                      Rediscover the thrill of driving with our curated collection of meticulously restored vintage cars. Perfect for special occasions, scenic drives, or simply
+                      indulging in a touch of nostalgia.
+                    </h2>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#607afb] text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                  >
+                    <span class="truncate">Browse Cars</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col gap-10 px-4 py-10 @container">
+              <div class="flex flex-col gap-4">
+                <h1
+                  class="text-white tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]"
+                >
+                  Our Collection
+                </h1>
+                <p class="text-white text-base font-normal leading-normal max-w-[720px]">
+                  Explore our diverse fleet of classic cars, each with its own unique story and charm. From elegant sedans to sporty roadsters, we have the perfect vehicle to match
+                  your style and occasion.
+                </p>
+              </div>
+              <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3">
+                <div class="flex flex-col gap-3 pb-3">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuChZwexgo8qwGnv7hOkNWyWu9mjb9Z4_cIMeLWNvSlkqfvdlLv5ojvq-woRQwa59M0GS6xW-InwMimddepBq70cnPK1wQ9-LtHBMLymj-cfqRR9orFHhCEr6gQhDii8X-HwsDM5Ah6ELI1dLLwVXKZFiJWo5x5ISDOvaYb__SaFpMQ-lrTKbHeeqHGyu2jCERUYp4q4dEBzENNO33O20EbMPg4u3fTftSpdOlzjLZx6ODJuCrUQBR3ynekiBI8gs4HzjkO9qWQ2zAMD");'
+                  ></div>
+                  <div>
+                    <p class="text-white text-base font-medium leading-normal">Luxury Sedans</p>
+                    <p class="text-[#8e99cc] text-sm font-normal leading-normal">
+                      Experience the ultimate in comfort and sophistication with our selection of luxury sedans from the golden age of motoring.
+                    </p>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-3 pb-3">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDZQc6F7BuuLWd9D3YdifIVXIHZj2koS9COHKTMQFFlpTU1XWB27S-ztQ_7iZJ5UNWioTj7sIPi0mgckbiOy4agvEYJxzTRzhtVP0vVliK1Zy1ntkJMPgTSyaorVhRd7Rlw66da-87KPsFj29apWkgW3dIavvidIAoKBDkX6RElGnFnJ1wT_uMLe4O8CBuIrfZud-lvgRiGdYxIUUSMMXTOTBepqlkF8PQUKCcK3wF7VnXlp4ExVPMTsTQ-XZwTD-JqBzY6caDOUh2L");'
+                  ></div>
+                  <div>
+                    <p class="text-white text-base font-medium leading-normal">Sporty Roadsters</p>
+                    <p class="text-[#8e99cc] text-sm font-normal leading-normal">
+                      Feel the wind in your hair and the thrill of the open road with our collection of sporty roadsters.
+                    </p>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-3 pb-3">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBqhH7MDMF98XZRWfos2TFVNW8DNGy_ctn3uflFuuubnjBGA20mF5fuKzNy_jO121JEl6zzI4WWzQGwiWH4nGdsH4p1Xm0jEWNwuqtFlsIm3Rl-VA1ZelWHOA2LzXIzmevV8kq-oRLh1Cd3E1_REV237eBNlmcTkrX_kPXKpLYRCr3nQA_y0v8a3L280h2jxEbzjmGOanKeJR6whPNSuUK2WGehXopwiYRHZfnz_Ni134Wcx-t1cuIfauaJTduWC7EhLJXzCNkwkvdX");'
+                  ></div>
+                  <div>
+                    <p class="text-white text-base font-medium leading-normal">Iconic Classics</p>
+                    <p class="text-[#8e99cc] text-sm font-normal leading-normal">
+                      Own a piece of history with our iconic classic cars, meticulously restored to their original glory.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="flex justify-center">
+          <div class="flex max-w-[960px] flex-1 flex-col">
+            <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
+              <div class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
+                <a class="text-[#8e99cc] text-base font-normal leading-normal min-w-40" href="#">Privacy Policy</a>
+                <a class="text-[#8e99cc] text-base font-normal leading-normal min-w-40" href="#">Terms of Service</a>
+                <a class="text-[#8e99cc] text-base font-normal leading-normal min-w-40" href="#">Contact Us</a>
+              </div>
+              <p class="text-[#8e99cc] text-base font-normal leading-normal">© 2024 Classic Rides. All rights reserved.</p>
+            </footer>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+
+    <div class="relative flex size-full min-h-screen flex-col bg-[#101323] dark group/design-root overflow-x-hidden" style='font-family: "Public Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#21284a] px-10 py-3">
+          <div class="flex items-center gap-4 text-white">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Classic Rides</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-white text-sm font-medium leading-normal" href="#">Our Cars</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">About Us</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Contact</a>
+            </div>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#607afb] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Book a Ride</span>
+            </button>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4"><p class="text-white tracking-light text-[32px] font-bold leading-tight min-w-72">Our Vintage Collection</p></div>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAxPXgmrJvULuPZ65gv3N9FS0N0SP32pkhredNLeUHjM4h7vd86AqjngeNq-O7nUC4rKNGRqPJNSefoNaUZesmfEwLNsi7DrkJFsE6IPgDsFAXM_C1w-Rz7juNe__ZIFW2_vZUKKFBJv2vGlyyev4rKJZA0W2Tp82c7ep8A9cFTqd0EVq3Yt959IZVGAx0O4eAByLDO-1f9H-yzSJCkwPSICG14tStYb80wB_L4twZGRVy5afpbWIicKxfRMZ3YsXqEi7YrtdzuOpJn");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">1967 Ford Mustang</p>
+                  <p class="text-[#8e99cc] text-sm font-normal leading-normal">Model: Mustang, Year: 1967, Price: $250/day</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAgZel_35my5JXWpvTmgdaLJ55hUq_3V1ZZleTLJLraFNtpCrntrBA6B24pdSoSAGb8wjdGAWOPdC3DxRThwoYsyQU1K6uhZxv2_Y-evTt-VYLxx8iMf6rnhxFP37_mBt__lu1hPT1E18FUl8hw0CD0PNllV66e1AgjNtiNl1OExqUo0lcuP8k45EVVIPyZw8nIHZqoiP0ilm1_h4G7QFa6sJ4dVPBUaXTy4cGdmgBJyNamcxtD6gBLeRFUv49D6XsOOj47UgLiA4Nt");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">1959 Cadillac Eldorado</p>
+                  <p class="text-[#8e99cc] text-sm font-normal leading-normal">Model: Eldorado, Year: 1959, Price: $350/day</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDC3rKntKjZXJ5PuSDoVc10F1ydk1Jtakd9wA7Vb4Iki4LcL5An_pwe0SgwqHszTTxi9udrQ-5NQGYazrKqozFeQT_-XlerucMxfbXxUMeyq35D_lhvvvsSoGGzRgoBNAGJOU_a5xyK1Arrk0XxxlW5SWXhbuN9yz6yKHB7Qp4Q6JiIwqlrNx2pKEJcyE8CryH1kUMh5IrK7mu-HNftVzxZeoowHfoOUrAWYDo9RoDVm1FjPAOCq_d9Nrre2Jmoo3qqlzGrgAdKmy4D");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">1970 Chevrolet Camaro</p>
+                  <p class="text-[#8e99cc] text-sm font-normal leading-normal">Model: Camaro, Year: 1970, Price: $220/day</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBZv1f-bsS1B5DTnM1G8uqIUU7XTUSkqPwFFZO_oy15dyyVGYPhIGqcMcRaTVdVgdm51KgDfgP7PLK1hUqa5k4hZdnWABMdICbsvGjZSc_KpZo7AcEgcLBz7F5sr_N3EEpSfndG-V7w5A_NWZ4bFV4ol6KNwfuCWQT5CiPBkRWj_jSfhqrhvN70yCQ-VhAWeZghozmbENhMF_i4QRjUst0aok6swDDeD3P-hTUe2maOtPgJCthTACQ74nKsXHEPPNNfnGUB47k7WL54");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">1965 Volkswagen Beetle</p>
+                  <p class="text-[#8e99cc] text-sm font-normal leading-normal">Model: Beetle, Year: 1965, Price: $150/day</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD6E9oN5F2ArYchTnLjR3CiEd-zJIBhP_yQgyL59FEllMvzdHJGUXEH-oPA927da6wCLfcjCFbSAVLhWvPDAiMcwHnZKfdpQWeZxDqtABcIaEcrHKOQz_22evw2yY54fmTDVpRrwYRYWtxo2jRLftr1lH6SmvW0IRzKfuCO_1bOXKTS2dTFIXAi-9bTKU_vG-oYavE8T3VoQi-7u8g-WImJ4oWezQDvPigOMdau8hL2Me6bYGNi7W3W3N6PdBbUmDxfY_VoxlKNIcj1");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">1963 Jaguar E-Type</p>
+                  <p class="text-[#8e99cc] text-sm font-normal leading-normal">Model: E-Type, Year: 1963, Price: $400/day</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA7HvRDqCcWhAfhD6VCUK-TB3PrEX4VCuhtzsw7uBswtHUk9HwK3tBUS2uf5pbUB7uk_5lc0oN9vYtGEjV_3BujAyxFoNMpi0yQwbyV-pmOgjQcDFATi2ZfQMpjQR8g2zsDMsF4XDc2erLRvM6EsFfU-q6RPdUiN_GtM22p3GMs_s__BmG2kwqkQrCJZmJZjz5JmaJWEi9V2VdHA0OrLwQ9J4TReXTmSApwhlqDczdDo9qp4-pqNy3gumctWVGQBdD3wBQdvGRBHZoi");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">1972 Porsche 911</p>
+                  <p class="text-[#8e99cc] text-sm font-normal leading-normal">Model: 911, Year: 1972, Price: $300/day</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+     <div
+      class="relative flex size-full min-h-screen flex-col bg-[#101323] dark group/design-root overflow-x-hidden"
+      style='--checkbox-tick-svg: url(&apos;data:image/svg+xml,%3csvg viewBox=%270 0 16 16%27 fill=%27rgb(255,255,255)%27 xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath d=%27M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z%27/%3e%3c/svg%3e&apos;); font-family: "Public Sans", "Noto Sans", sans-serif;'
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#21284a] px-10 py-3">
+          <div class="flex items-center gap-4 text-white">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Classic Rides</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-white text-sm font-medium leading-normal" href="#">Our Cars</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Destinations</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">About Us</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Contact</a>
+            </div>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#607afb] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Book Now</span>
+            </button>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:px-4 @[480px]:py-3">
+                <div
+                  class="bg-cover bg-center flex flex-col justify-end overflow-hidden bg-[#101323] @[480px]:rounded-xl min-h-80"
+                  style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 25%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBA2uTEajj6s4kLIlSqGbyDVIvtoPIDwQwnPvqF9_9RfgI14EoOxhbZ71U1Rn8vgWBKJPhsJnlmX_zkTxf19ufIAaDaM4fOOlDNcZJpl8MO3BL4hCTu6bAGfRNwcRoveyhSTivPppQ4W9RRgp4NN9EyggCeJuMD_zbBBrHGvN1oNtosy_uT2R3NZI244PCx0FxKocKiSfgO9HKh_0T9lRh7CiLynpu6dXIPvHLUMjl1qeVim84XDo1Tp_rL63c_gOsvg6InvT891lv2");'
+                >
+                  <div class="flex p-4"><p class="text-white tracking-light text-[28px] font-bold leading-tight">1967 Ford Mustang Convertible</p></div>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Specifications</h2>
+            <div class="p-4 grid grid-cols-2">
+              <div class="flex flex-col gap-1 border-t border-solid border-t-[#2f396a] py-4 pr-2">
+                <p class="text-[#8e99cc] text-sm font-normal leading-normal">Engine</p>
+                <p class="text-white text-sm font-normal leading-normal">289 cu in V8</p>
+              </div>
+              <div class="flex flex-col gap-1 border-t border-solid border-t-[#2f396a] py-4 pl-2">
+                <p class="text-[#8e99cc] text-sm font-normal leading-normal">Horsepower</p>
+                <p class="text-white text-sm font-normal leading-normal">225 hp</p>
+              </div>
+              <div class="flex flex-col gap-1 border-t border-solid border-t-[#2f396a] py-4 pr-2">
+                <p class="text-[#8e99cc] text-sm font-normal leading-normal">Transmission</p>
+                <p class="text-white text-sm font-normal leading-normal">Automatic</p>
+              </div>
+              <div class="flex flex-col gap-1 border-t border-solid border-t-[#2f396a] py-4 pl-2">
+                <p class="text-[#8e99cc] text-sm font-normal leading-normal">Fuel Type</p>
+                <p class="text-white text-sm font-normal leading-normal">Gasoline</p>
+              </div>
+              <div class="flex flex-col gap-1 border-t border-solid border-t-[#2f396a] py-4 pr-2">
+                <p class="text-[#8e99cc] text-sm font-normal leading-normal">Mileage</p>
+                <p class="text-white text-sm font-normal leading-normal">50,000 miles</p>
+              </div>
+              <div class="flex flex-col gap-1 border-t border-solid border-t-[#2f396a] py-4 pl-2">
+                <p class="text-[#8e99cc] text-sm font-normal leading-normal">Year</p>
+                <p class="text-white text-sm font-normal leading-normal">1967</p>
+              </div>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Features</h2>
+            <div class="px-4">
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#2f396a] border-2 bg-transparent text-[#607afb] checked:bg-[#607afb] checked:border-[#607afb] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#2f396a] focus:outline-none"
+                />
+                <p class="text-white text-base font-normal leading-normal">Air Conditioning</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#2f396a] border-2 bg-transparent text-[#607afb] checked:bg-[#607afb] checked:border-[#607afb] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#2f396a] focus:outline-none"
+                />
+                <p class="text-white text-base font-normal leading-normal">Convertible Top</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#2f396a] border-2 bg-transparent text-[#607afb] checked:bg-[#607afb] checked:border-[#607afb] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#2f396a] focus:outline-none"
+                />
+                <p class="text-white text-base font-normal leading-normal">AM/FM Radio</p>
+              </label>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Rental Terms</h2>
+            <div class="p-4 grid grid-cols-2">
+              <div class="flex flex-col gap-1 border-t border-solid border-t-[#2f396a] py-4 pr-2">
+                <p class="text-[#8e99cc] text-sm font-normal leading-normal">Daily Rate</p>
+                <p class="text-white text-sm font-normal leading-normal">$299</p>
+              </div>
+              <div class="flex flex-col gap-1 border-t border-solid border-t-[#2f396a] py-4 pl-2">
+                <p class="text-[#8e99cc] text-sm font-normal leading-normal">Mileage Limit</p>
+                <p class="text-white text-sm font-normal leading-normal">100 miles/day</p>
+              </div>
+              <div class="flex flex-col gap-1 border-t border-solid border-t-[#2f396a] py-4 pr-2">
+                <p class="text-[#8e99cc] text-sm font-normal leading-normal">Insurance</p>
+                <p class="text-white text-sm font-normal leading-normal">Included</p>
+              </div>
+              <div class="flex flex-col gap-1 border-t border-solid border-t-[#2f396a] py-4 pl-2">
+                <p class="text-[#8e99cc] text-sm font-normal leading-normal">Security Deposit</p>
+                <p class="text-white text-sm font-normal leading-normal">$500</p>
+              </div>
+              <div class="flex flex-col gap-1 border-t border-solid border-t-[#2f396a] py-4 pr-2">
+                <p class="text-[#8e99cc] text-sm font-normal leading-normal">Minimum Rental Age</p>
+                <p class="text-white text-sm font-normal leading-normal">25 years</p>
+              </div>
+              <div class="flex flex-col gap-1 border-t border-solid border-t-[#2f396a] py-4 pl-2">
+                <p class="text-[#8e99cc] text-sm font-normal leading-normal">Cancellation Policy</p>
+                <p class="text-white text-sm font-normal leading-normal">48-hour notice for full refund</p>
+              </div>
+            </div>
+            <div class="flex px-4 py-3 justify-center">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-5 bg-[#607afb] text-white text-base font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Book Now</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <div class="relative flex size-full min-h-screen flex-col bg-[#101323] dark group/design-root overflow-x-hidden" style='font-family: "Public Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#21284a] px-10 py-3">
+          <div class="flex items-center gap-4 text-white">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Classic Rides</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-white text-sm font-medium leading-normal" href="#">Our Cars</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">About Us</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Contact</a>
+            </div>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#21284a] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Log in</span>
+            </button>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-[512px] max-w-[512px] py-5 max-w-[960px] flex-1">
+            <h2 class="text-white tracking-light text-[28px] font-bold leading-tight px-4 text-center pb-3 pt-5">Check Availability</h2>
+            <div class="flex flex-wrap items-center justify-center gap-6 p-4">
+              <div class="flex min-w-72 max-w-[336px] flex-1 flex-col gap-0.5">
+                <div class="flex items-center p-1 justify-between">
+                  <button>
+                    <div class="text-white flex size-10 items-center justify-center" data-icon="CaretLeft" data-size="18px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z"></path>
+                      </svg>
+                    </div>
+                  </button>
+                  <p class="text-white text-base font-bold leading-tight flex-1 text-center pr-10">July 2024</p>
+                </div>
+                <div class="grid grid-cols-7">
+                  <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">S</p>
+                  <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">M</p>
+                  <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">T</p>
+                  <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">W</p>
+                  <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">T</p>
+                  <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">F</p>
+                  <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">S</p>
+                  <button class="h-12 w-full text-white col-start-4 text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">1</div>
+                  </button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">2</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">3</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">4</div></button>
+                  <button class="h-12 w-full text-white rounded-l-full bg-[#21284a] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full bg-[#607afb]">5</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">6</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">7</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">8</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">9</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">10</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">11</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">12</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">13</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">14</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">15</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">16</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">17</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">18</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">19</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">20</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">21</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">22</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">23</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">24</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">25</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">26</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">27</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">28</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">29</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">30</div>
+                  </button>
+                </div>
+              </div>
+              <div class="flex min-w-72 max-w-[336px] flex-1 flex-col gap-0.5">
+                <div class="flex items-center p-1 justify-between">
+                  <p class="text-white text-base font-bold leading-tight flex-1 text-center pl-10">August 2024</p>
+                  <button>
+                    <div class="text-white flex size-10 items-center justify-center" data-icon="CaretRight" data-size="18px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+                <div class="grid grid-cols-7">
+                  <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">S</p>
+                  <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">M</p>
+                  <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">T</p>
+                  <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">W</p>
+                  <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">T</p>
+                  <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">F</p>
+                  <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">S</p>
+                  <button class="h-12 w-full bg-[#21284a] text-white col-start-4 text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">1</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">2</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">3</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">4</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">5</div>
+                  </button>
+                  <button class="h-12 w-full bg-[#21284a] text-white text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">6</div>
+                  </button>
+                  <button class="h-12 w-full text-white rounded-r-full bg-[#21284a] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full bg-[#607afb]">7</div>
+                  </button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">8</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">9</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">10</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">11</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">12</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">13</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">14</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">15</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">16</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">17</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">18</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">19</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">20</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">21</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">22</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">23</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">24</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">25</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">26</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">27</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">28</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">29</div></button>
+                  <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">30</div></button>
+                </div>
+              </div>
+            </div>
+            <div class="flex px-4 py-3 justify-center">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#607afb] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Book Now</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <div class="relative flex size-full min-h-screen flex-col bg-[#101323] dark group/design-root overflow-x-hidden" style='font-family: "Public Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#21284a] px-10 py-3">
+          <div class="flex items-center gap-4 text-white">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Classic Rides</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-white text-sm font-medium leading-normal" href="#">Ride</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Rent</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Eat</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Charter</a>
+            </div>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#21284a] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Help</span>
+            </button>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA1ewDbmq7ssDScIzX4aR_LuzK0PGBCK6WheBAqEm1NRJylMeuBxFoTD0qZHSZ0haFIA10NnuY_LE_f5lGX-xaFXG52v4qnKlCN4G-EOV2ufFu8hh4BVcqk1WW6fh-DsvTub2DRFDJLgoWmUGAc6uvbhTVgFIwopfuRMUW3DWpHJ6fs0Cv-e5edps3mmfhuLgGBU-Qz632gTuMUf1keQIrTNrADNWGemyGaluqyducpHf-WGf9J4tIeEzghzgENIKtJT9JxOBr_pVGD");'
+            ></div>
+          </div>
+        </header>
+        <div class="gap-1 px-6 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-80">
+            <h2 class="text-white tracking-light text-[28px] font-bold leading-tight px-4 text-left pb-3 pt-5">Reservation confirmed</h2>
+            <div class="flex items-center gap-4 bg-[#101323] px-4 min-h-[72px] py-2">
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-14 w-fit"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDIHvRS2J3_OekIQGrQf5Dps-fijkSw1uuJmki7V399wdT3revPQVY9SL25aTFDrc4-QgeKRF9KrKX3PrwJ0-DWSwzQive74Kqyt1W-_IVdL7mEB9e3CAK1XUFn6M_GNoDbONV8NU0lY1v-koc0RosI7Nxp6vCcTXDaeoVPCCe7sdxmgGjY19VqUq6S7w2pMaSRZnD3yvAZEeNYABpxDSjNwXLyffAqqmRQ8OqcLIK7IPlvviV1DTOyOt1f7vJnzj3rR2gzKQTHw_40");'
+              ></div>
+              <div class="flex flex-col justify-center">
+                <p class="text-white text-base font-medium leading-normal line-clamp-1">Reservation #4309843</p>
+                <p class="text-[#8e99cc] text-sm font-normal leading-normal line-clamp-2">Classic Convertible · Ford Mustang or similar</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-[#101323] px-4 min-h-[72px] py-2">
+              <div class="text-white flex items-center justify-center rounded-lg bg-[#21284a] shrink-0 size-12" data-icon="Car" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M240,112H229.2L201.42,49.5A16,16,0,0,0,186.8,40H69.2a16,16,0,0,0-14.62,9.5L26.8,112H16a8,8,0,0,0,0,16h8v80a16,16,0,0,0,16,16H64a16,16,0,0,0,16-16V192h96v16a16,16,0,0,0,16,16h24a16,16,0,0,0,16-16V128h8a8,8,0,0,0,0-16ZM69.2,56H186.8l24.89,56H44.31ZM64,208H40V192H64Zm128,0V192h24v16Zm24-32H40V128H216ZM56,152a8,8,0,0,1,8-8H80a8,8,0,0,1,0,16H64A8,8,0,0,1,56,152Zm112,0a8,8,0,0,1,8-8h16a8,8,0,0,1,0,16H176A8,8,0,0,1,168,152Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex flex-col justify-center">
+                <p class="text-white text-base font-medium leading-normal line-clamp-1">Pick up at 341 S Van Ness Ave</p>
+                <p class="text-[#8e99cc] text-sm font-normal leading-normal line-clamp-2">Tue, July 18, 12:00PM</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-[#101323] px-4 min-h-[72px] py-2">
+              <div class="text-white flex items-center justify-center rounded-lg bg-[#21284a] shrink-0 size-12" data-icon="Car" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M240,112H229.2L201.42,49.5A16,16,0,0,0,186.8,40H69.2a16,16,0,0,0-14.62,9.5L26.8,112H16a8,8,0,0,0,0,16h8v80a16,16,0,0,0,16,16H64a16,16,0,0,0,16-16V192h96v16a16,16,0,0,0,16,16h24a16,16,0,0,0,16-16V128h8a8,8,0,0,0,0-16ZM69.2,56H186.8l24.89,56H44.31ZM64,208H40V192H64Zm128,0V192h24v16Zm24-32H40V128H216ZM56,152a8,8,0,0,1,8-8H80a8,8,0,0,1,0,16H64A8,8,0,0,1,56,152Zm112,0a8,8,0,0,1,8-8h16a8,8,0,0,1,0,16H176A8,8,0,0,1,168,152Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex flex-col justify-center">
+                <p class="text-white text-base font-medium leading-normal line-clamp-1">Return at 341 S Van Ness Ave</p>
+                <p class="text-[#8e99cc] text-sm font-normal leading-normal line-clamp-2">Thu, July 20, 12:00PM</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-[#101323] px-4 min-h-14">
+              <div class="text-white flex items-center justify-center rounded-lg bg-[#21284a] shrink-0 size-10" data-icon="Receipt" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M72,104a8,8,0,0,1,8-8h96a8,8,0,0,1,0,16H80A8,8,0,0,1,72,104Zm8,40h96a8,8,0,0,0,0-16H80a8,8,0,0,0,0,16ZM232,56V208a8,8,0,0,1-11.58,7.15L192,200.94l-28.42,14.21a8,8,0,0,1-7.16,0L128,200.94,99.58,215.15a8,8,0,0,1-7.16,0L64,200.94,35.58,215.15A8,8,0,0,1,24,208V56A16,16,0,0,1,40,40H216A16,16,0,0,1,232,56Zm-16,0H40V195.06l20.42-10.22a8,8,0,0,1,7.16,0L96,199.06l28.42-14.22a8,8,0,0,1,7.16,0L160,199.06l28.42-14.22a8,8,0,0,1,7.16,0L216,195.06Z"
+                  ></path>
+                </svg>
+              </div>
+              <p class="text-white text-base font-normal leading-normal flex-1 truncate">Estimated total: $145</p>
+            </div>
+          </div>
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container flex flex-col h-full flex-1">
+              <div class="flex flex-1 flex-col @[480px]:px-4 @[480px]:py-3">
+                <div
+                  class="bg-cover bg-center flex min-h-[320px] flex-1 flex-col justify-between px-4 pb-4 pt-5 @[480px]:rounded-xl @[480px]:px-8 @[480px]:pb-6 @[480px]:pt-8"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBgvM7R-2ZTUNYa4hh-LrCJO7w3OF3CmEYvj1C1jNiFQisxkTTn6TKRYysOh5Zqtl01dfuKdSRalgEn5KWFh7JJ-ggJKnbBM3C_xb9a6DOFPnxWZZBUDMIPu2lAyxtYW7DdZUaHWkuVWA11KGO9m2dkw9wgzowIL9h9ijjGl-_G-9ewqSFn4wEo4YfdVvsDt9EpXlgphzbw7YM3yaf1P75CQV0hbjxAF1f2sAD67M6_5CjbX4rACb6zuAyNL_wvwtBeV8J3k6_0XZxK");'
+                >
+                  <label class="flex flex-col min-w-40 h-12">
+                    <div class="flex w-full flex-1 items-stretch rounded-xl h-full">
+                      <div
+                        class="text-[#8e99cc] flex border-none bg-[#181d35] items-center justify-center pl-4 rounded-l-xl border-r-0"
+                        data-icon="MagnifyingGlass"
+                        data-size="24px"
+                        data-weight="regular"
+                      >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                          <path
+                            d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <input
+                        class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-white focus:outline-0 focus:ring-0 border-none bg-[#181d35] focus:border-none h-full placeholder:text-[#8e99cc] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                        value=""
+                      />
+                    </div>
+                  </label>
+                  <div class="flex flex-col items-end gap-3">
+                    <div class="flex flex-col gap-0.5">
+                      <button class="flex size-10 items-center justify-center rounded-t-full bg-[#181d35] shadow-[0_2px_4px_rgba(0,0,0,0.1)]">
+                        <div class="text-white" data-icon="Plus" data-size="24px" data-weight="regular">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                            <path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path>
+                          </svg>
+                        </div>
+                      </button>
+                      <button class="flex size-10 items-center justify-center rounded-b-full bg-[#181d35] shadow-[0_2px_4px_rgba(0,0,0,0.1)]">
+                        <div class="text-white" data-icon="Minus" data-size="24px" data-weight="regular">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                            <path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128Z"></path>
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                    <button class="flex size-10 items-center justify-center rounded-full bg-[#181d35] shadow-[0_2px_4px_rgba(0,0,0,0.1)]">
+                      <div class="text-white" data-icon="NavigationArrow" data-size="24px" data-weight="regular">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256" transform="scale(-1, 1)">
+                          <path
+                            d="M229.33,98.21,53.41,33l-.16-.05A16,16,0,0,0,32.9,53.25a1,1,0,0,0,.05.16L98.21,229.33A15.77,15.77,0,0,0,113.28,240h.3a15.77,15.77,0,0,0,15-11.29l23.56-76.56,76.56-23.56a16,16,0,0,0,.62-30.38ZM224,113.3l-76.56,23.56a16,16,0,0,0-10.58,10.58L113.3,224h0l-.06-.17L48,48l175.82,65.22.16.06Z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
